@@ -26,10 +26,21 @@
 .main-block__left {
   width: 500px;
 }
+@media screen and (max-width: 992px) {
+  .main-block__left {
+    width: 40%;
+  }
+}
 
 .main-block__right {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .img-block__right {
+    width: 70%;
+  }
 }
 
 .text-about {
@@ -52,9 +63,19 @@
   display: flex;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 992px) {
+  .row1 {
+    flex-direction: column;
+  }
+}
 
 .row2 {
   display: flex;
+}
+@media screen and (max-width: 992px) {
+  .row2 {
+    flex-direction: column;
+  }
 }
 
 .container-icon {
@@ -62,6 +83,11 @@
   width: 300px;
   margin-right: 40px;
   align-items: center;
+}
+@media screen and (max-width: 992px) {
+  .container-icon {
+    margin-bottom: 40px;
+  }
 }
 
 .container-texts {

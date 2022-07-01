@@ -4,10 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 65px;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    
     @media screen and (max-width: 992px)
 		{
-            display: flex;
-            justify-content: center;
             
             height: 562px;
             width: max-width;
@@ -17,19 +19,16 @@
 
 .container
 {
-    width: 1200px;
-    margin: 0 auto;
-    @media screen and (max-width: 992px)
-		{
+    width: 98vw;
     justify-content: center;
-		}
+
 }
 .main-info
 {
     
     padding-top: 69px;
     display: flex;
-    flex-wrap:
+    flex-wrap: wrap;
     @media screen and (max-width: 992px)
     {
 justify-content: center;
