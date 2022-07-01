@@ -1,0 +1,151 @@
+.main {
+  margin-top: 30px;
+  background-image: url("../img/main/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 65px;
+}
+@media screen and (max-width: 992px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    height: 562px;
+    width: max-width;
+  }
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .container {
+    justify-content: center;
+  }
+}
+
+.main-info {
+  padding-top: 69px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 992px) {
+  .main-info {
+    justify-content: center;
+  }
+}
+.main-info__left {
+  padding: 60px 52px 0px 85px;
+}
+.main-info__right .right__feedback {
+  background: #fff;
+  border-radius: 2px;
+  width: 405px;
+  padding: 43px 40px 65px 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 1200
+  align-self: right;
+  
+}
+@media screen and (max-width: 992px) {
+  .main-info__right .right__feedback {
+    display: none;
+  }
+}
+.main-info__right .right__feedback-inputs {
+  margin-bottom: 24px;
+}
+.main-info__right .input__item {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 40px;
+  background-color: #e2e2e2;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding-left: 16px;
+}
+.main-info__right .input__item::-moz-placeholder {
+  color: #424268;
+}
+.main-info__right .input__item:-ms-input-placeholder {
+  color: #424268;
+}
+.main-info__right .input__item::placeholder {
+  color: #424268;
+}
+.main-info__right .input__item-checkbox {
+  width: 25px;
+  height: 25px;
+}
+.main-info__right .right__feedback-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F2F51;
+  margin-bottom: 27px;
+}
+.main-info__right .right__feedback-title .input__checkbox {
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin-top: 22px;
+  text-align: left;
+  margin-left: 10px;
+}
+.main-info__right .right__feedback-button {
+  padding: 19px 40px;
+  background: #ef7f04;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.main-info .measure-tape {
+  position: absolute;
+  left: -90px;
+}
+.main-info .left__title {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 36px;
+  color: #fff;
+}
+.main-info .left__title span {
+  color: #ef7f04;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.main-info .left .prof {
+  padding-bottom: 50px;
+}
+.main-info .left__advantages {
+  display: flex;
+}
+.main-info .left__advantages-item {
+  width: 210px;
+}
+.main-info .left__advantages-description {
+  color: #fff;
+  padding-top: 20px;
+  width: 160px;
+}
+.main-info * {
+  box-sizing: border-box;
+}
+.main-info .input__checkbox {
+  display: flex;
+}
+.main-info .agreement {
+  padding-left: 10px;
+  font-size: 12px;
+  padding-bottom: 20px;
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */
