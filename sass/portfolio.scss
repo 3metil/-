@@ -78,11 +78,11 @@ color:#EF7F1A;
     margin-right: 20px;
 
 }
-.portfolio__container-image:hover {
-    color:#EF7F1A;
-}
+.checkimg svg:hover {stroke: #EF7F1A;}
+.portfolio__container-image:hover{stroke: #EF7F1A;}
 .portfolio__answers-label {
     display: flex;
     width: 100%;
     margin-left: 20px;
 }
+

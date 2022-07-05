@@ -72,8 +72,12 @@
   margin-right: 20px;
 }
 
+.checkimg svg:hover {
+  stroke: #EF7F1A;
+}
+
 .portfolio__container-image:hover {
-  color: #EF7F1A;
+  stroke: #EF7F1A;
 }
 
 .portfolio__answers-label {
