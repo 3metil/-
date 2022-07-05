@@ -126,13 +126,13 @@
 .services__advertisments {
   display: flex;
   margin: 0 auto;
-  max-width: 1400px;
+  justify-content: center;
+  max-width: 95%;
 }
 @media screen and (max-width: 992px) {
   .services__advertisments {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 .services__two-blocks {
@@ -140,6 +140,7 @@
 }
 .services__block {
   display: flex;
+  width: 595px;
 }
 .services svg {
   margin-left: 50px;
@@ -200,6 +201,9 @@
   margin-left: 20px;
   margin-top: 20px;
   width: 55%;
+}
+.services .services__main-block {
+  width: 95%;
 }
 .services .main {
   display: flex;

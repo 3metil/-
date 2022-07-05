@@ -1,12 +1,19 @@
 .portfolio-top {
     width: 1200px;
     height: 410px;
+    margin: 0 auto;
+    
 }
 .portfolio-images {
     display: flex;
     justify-content: center;
     background: #FFFFFF;
     border-radius: 3px;
+    
+    
+}
+.portfolio-image {
+    margin: 29px;
 }
 .portfolio__container {
     width: 1200px;
@@ -36,5 +43,46 @@
     height: 82px; 
     background: #EEEEF3;
     border-radius: 3px; 
-    margin: 0 auto;    
+    margin: 14px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+
+}
+
+.portfolio__answers-question:hover {
+cursor: pointer;
+color:#EF7F1A;
+
+    
+}
+
+.opened-question {
+    height: 131px;
+}
+
+.checkimg {
+    width: 28px;
+    height: 14px;
+    
+    display: flex;
+    position: absolute;
+    
+}
+.portfolio__container-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20px;
+
+}
+.portfolio__container-image:hover {
+    color:#EF7F1A;
+}
+.portfolio__answers-label {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
 }
