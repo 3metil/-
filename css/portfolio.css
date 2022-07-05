@@ -1,0 +1,42 @@
+.portfolio-top {
+  width: 1200px;
+  height: 410px;
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 3px;
+}
+
+.portfolio__container {
+  width: 1200px;
+  height: 791.5px;
+  background: #EF7F1A;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.portfolio__container-label {
+  height: 28px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px;
+}
+
+.portfolio__answers {
+  width: 1200px;
+}
+
+.portfolio__answers-question {
+  width: 998px;
+  height: 82px;
+  background: #EEEEF3;
+  border-radius: 3px;
+  margin: 0 auto;
+}/*# sourceMappingURL=portfolio.css.map */

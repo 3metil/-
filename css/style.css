@@ -62,30 +62,28 @@
     justify-content: left;
     margin-right: 30px;
   }
+  .header__logo__button {
+    width: 500px;
+    display: flex;
+    justify-content: end;
+  }
 }
-.header__button {
-  width: 500px;
-  display: flex;
-  justify-content: end;
-}
-
-.header-container {
+.header .header-container {
   width: 1250px;
   margin: 0 auto;
   align-items: center;
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  .header-container {
+  .header .header-container {
     margin: 0 auto;
   }
 }
-
-.header-burger {
+.header .header-burger {
   display: none;
 }
 @media screen and (max-width: 992px) {
-  .header-burger {
+  .header .header-burger {
     display: flex;
     margin: 0 75px;
   }
