@@ -3,12 +3,24 @@
   height: 410px;
   margin: 0 auto;
 }
+@media screen and (max-width: 992px) {
+  .portfolio-top {
+    width: 998px;
+    height: 410px;
+  }
+}
 
 .portfolio-images {
   display: flex;
   justify-content: center;
   background: #FFFFFF;
   border-radius: 3px;
+}
+@media screen and (max-width: 992px) {
+  .portfolio-images :last-child {
+    display: none;
+    align-items: center;
+  }
 }
 
 .portfolio-image {
@@ -21,6 +33,12 @@
   background: #EF7F1A;
   border-radius: 7px;
   margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .portfolio__container {
+    width: 880px;
+    height: 792px;
+  }
 }
 
 .portfolio__container-label {
@@ -47,6 +65,13 @@
   display: flex;
   align-items: center;
   position: relative;
+}
+@media screen and (max-width: 992px) {
+  .portfolio__answers-question {
+    width: 800px;
+    height: 82px;
+    margin: 14px 3%;
+  }
 }
 
 .portfolio__answers-question:hover {

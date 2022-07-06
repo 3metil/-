@@ -2,6 +2,12 @@
     width: 1200px;
     height: 410px;
     margin: 0 auto;
+    @media screen and (max-width: 992px)
+    {
+        width: 998px;
+        height: 410px;
+    }
+
     
 }
 .portfolio-images {
@@ -9,8 +15,14 @@
     justify-content: center;
     background: #FFFFFF;
     border-radius: 3px;
-    
-    
+    @media screen and (max-width: 992px)
+    {
+    :last-child{
+        display:none;
+        align-items: center;
+}
+    }
+
 }
 .portfolio-image {
     margin: 29px;
@@ -21,6 +33,13 @@
     background: #EF7F1A;
     border-radius: 7px;
     margin: 0 auto;
+    @media screen and (max-width: 992px)
+    {
+        width: 880px;
+        height: 792px;
+        
+    }
+
     
 }
 .portfolio__container-label {
@@ -47,6 +66,14 @@
     display: flex;
     align-items: center;
     position: relative;
+    @media screen and (max-width: 992px)
+    {
+        width: 800px;
+        height: 82px;
+        margin: 14px 3%;
+        
+    }
+
     
     
 
