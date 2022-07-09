@@ -1,0 +1,105 @@
+.contacts{
+    
+    &__container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__phone-wrap{
+        display: inline-block;
+        width: 700px;
+    }
+
+        
+
+
+    &__telephone {
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 36px;
+        margin: 40px 50px 50px 0px;
+        
+    }
+
+    &__label {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #2F2F51;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    &__address-wrap {
+        display: inline-block;
+        width: 100%;
+    }
+
+    &__icon-address {
+        display: inline-block;
+    }
+
+    &__address {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px 0px 20px 40px;
+    
+       }
+    
+
+    &__email-wrap {
+        display: inline-block;
+
+    }
+    
+    &__icon-email {
+        display: inline-block;
+        margin: 0px 40px 50px 0px;
+    }
+
+    &__email {
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    &__text {
+        width: 230px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    &-icon {
+        margin: 0px 10px 0px 0px;
+    }
+    &__icons-wrap {
+        display: inline-block;
+        width: 230px;
+    }
+    &__builders {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px 0px 0px 30px;
+    }
+    &-wrap {
+        display: inline-block;
+    }
+    &__image-wrap{
+        display: flex;
+    }
+}
