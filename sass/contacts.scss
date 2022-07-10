@@ -37,6 +37,7 @@
         font-size: 18px;
         line-height: 21px;
         height: 20px;
+        color:#2F2F51;
     }
     
     &__address-wrap {
@@ -87,6 +88,7 @@
         font-size: 16px;
         line-height: 22px;
         margin: 0px 0px 30px 0px;
+        color: #2F2F51;
     }
 
     &-icon {
@@ -117,6 +119,8 @@
         margin: 50px 0px 0px 0px;
     }
 
+    
+
     &__right {
         &-name__input {
             width: 395px;
@@ -124,6 +128,7 @@
             background: #E2E2E2;
             border-radius: 3px;
             margin: 0px 0px 21px 0px;
+            border: none;
         }
 
         &-email__input {
@@ -132,6 +137,7 @@
             background: #E2E2E2;
             border-radius: 3px;
             margin: 0px 0px 21px 0px;
+            border: none;
         }
 
         &-report__input {
@@ -140,6 +146,29 @@
             background: #E2E2E2;
             border-radius: 3px;
             margin: 0px 0px 21px 0px;
+            border: none;
+        }
+
+        &__agreement-wrap {
+            display: flex;
+            align-items: center;
+            width: 450px;
+
+        }
+        &-agreement-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0px 0px 0px;
+        }
+
+        &__agreement-body {
+            display: flex;
+            width: 600px;
+            color:#2F2F51;
         }
     }
+}
+.orange {
+    color: #EF7F1A;
 }
