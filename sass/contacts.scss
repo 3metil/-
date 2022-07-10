@@ -4,6 +4,13 @@
         width: 1200px;
         margin: 0 auto;
         display: flex;
+        @media screen and (max-width: 992px)
+		{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+		}
     }
 
     &__phone-wrap{

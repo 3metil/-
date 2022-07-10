@@ -3,6 +3,14 @@
   margin: 0 auto;
   display: flex;
 }
+@media screen and (max-width: 992px) {
+  .contacts__container {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
 .contacts__phone-wrap {
   display: inline-block;
   width: 700px;
