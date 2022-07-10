@@ -3,6 +3,7 @@
     &__container {
         width: 1200px;
         margin: 0 auto;
+        display: flex;
     }
 
     &__phone-wrap{
@@ -10,7 +11,9 @@
         width: 700px;
     }
 
-        
+    &__left {
+        margin: 100px 0px 0px 0px;
+    }        
 
 
     &__telephone {
@@ -24,14 +27,16 @@
         
     }
 
-    &__label {
+    &__label-small {
+        
+        font-family: 'Roboto';
+        font-style: normal;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 21px;
-        color: #2F2F51;
-        margin: 0px 0px 10px 0px;
+        height: 20px;
     }
     
     &__address-wrap {
@@ -101,5 +106,40 @@
     }
     &__image-wrap{
         display: flex;
+    }
+
+    &__form {
+        background: #FFFFFF;
+        border-radius: 10px;
+        width: 512px;
+        height: 565px;
+        display: flex;
+        margin: 50px 0px 0px 0px;
+    }
+
+    &__right {
+        &-name__input {
+            width: 395px;
+            height: 52px;
+            background: #E2E2E2;
+            border-radius: 3px;
+            margin: 0px 0px 21px 0px;
+        }
+
+        &-email__input {
+            width: 395px;
+            height: 52px;
+            background: #E2E2E2;
+            border-radius: 3px;
+            margin: 0px 0px 21px 0px;
+        }
+
+        &-report__input {
+            width: 395px;
+            height: 134px;
+            background: #E2E2E2;
+            border-radius: 3px;
+            margin: 0px 0px 21px 0px;
+        }
     }
 }
