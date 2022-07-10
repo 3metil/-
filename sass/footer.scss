@@ -1,0 +1,44 @@
+.footer__container{
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    height: 146px;
+    background-color: #2F2F51;
+    display: flex;
+    
+&-left {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    &__logo{
+        
+        
+        
+        margin: 0px 20px 0px 25%;
+        width: 55px;
+    }
+    &__copyright{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        width: 233px;
+
+    }
+}
+&-right {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        width: 50%;
+    &__policy{
+        margin: 0px 5% 0px 10%;
+        color: #FFFFFF;
+    }
+    &__agreement{
+        color: #FFFFFF; 
+    }
+}
+}
