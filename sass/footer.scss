@@ -4,6 +4,10 @@
     height: 146px;
     background-color: #2F2F51;
     display: flex;
+    @media screen and (max-width: 992px)
+    {
+        width: 992px;
+    }
     
 &-left {
         display: flex;

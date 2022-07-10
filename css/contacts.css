@@ -102,15 +102,13 @@
   border-radius: 10px;
   width: 512px;
   height: 565px;
-  display: flex;
-  margin: 50px 0px 0px 0px;
 }
 .contacts__right-name__input {
   width: 395px;
   height: 52px;
   background: #E2E2E2;
   border-radius: 3px;
-  margin: 0px 0px 21px 0px;
+  margin: 0px auto 21px auto;
   border: none;
 }
 .contacts__right-email__input {
@@ -118,7 +116,7 @@
   height: 52px;
   background: #E2E2E2;
   border-radius: 3px;
-  margin: 0px 0px 21px 0px;
+  margin: 0px auto 21px auto;
   border: none;
 }
 .contacts__right-report__input {
@@ -126,13 +124,14 @@
   height: 134px;
   background: #E2E2E2;
   border-radius: 3px;
-  margin: 0px 0px 21px 0px;
+  margin: 0px auto 21px auto;
   border: none;
 }
 .contacts__right__agreement-wrap {
   display: flex;
   align-items: center;
-  width: 450px;
+  width: 375px;
+  margin: 0 auto;
 }
 .contacts__right-agreement-button {
   display: flex;
