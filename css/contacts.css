@@ -60,6 +60,7 @@
 .contacts__icon-email {
   display: inline-block;
   margin: 0px 40px 50px 0px;
+  cursor: pointer;
 }
 .contacts__email {
   display: inline-block;
@@ -68,6 +69,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  cursor: pointer;
 }
 .contacts__text {
   width: 230px;
@@ -81,6 +83,7 @@
 }
 .contacts-icon {
   margin: 0px 10px 0px 0px;
+  cursor: pointer;
 }
 .contacts__icons-wrap {
   display: inline-block;

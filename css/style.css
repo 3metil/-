@@ -14,6 +14,7 @@
   border: none;
   color: #fff;
   margin-left: 35px;
+  opacity: 0.7;
 }
 @media screen and (max-width: 992px) {
   .button-orange {
@@ -35,6 +36,7 @@
   top: 28.5px;
   border: none;
   color: #fff;
+  opacity: 0.8;
 }
 @media screen and (max-width: 992px) {
   .button-blue {
@@ -60,7 +62,7 @@
     width: 106px;
     height: 75px;
     justify-content: left;
-    margin-right: 30px;
+    margin: 0px 30px 0px 0px;
   }
   .header__logo__button {
     width: 500px;
@@ -68,24 +70,60 @@
     justify-content: end;
   }
 }
-.header .header-container {
+
+.header-container {
   width: 1250px;
   margin: 0 auto;
   align-items: center;
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  .header .header-container {
+  .header-container {
     margin: 0 auto;
   }
 }
-.header .header-burger {
+
+.header-burger {
   display: none;
 }
 @media screen and (max-width: 992px) {
-  .header .header-burger {
-    display: flex;
-    margin: 0 75px;
+  .header-burger {
+    display: inline-block;
+    position: relative;
+    width: 75px;
+    height: 3px;
+    background-color: orange;
+    margin: 0px 75px 0px 75px;
+  }
+}
+
+.header-burger::before {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .header-burger::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    top: 15px;
+  }
+}
+
+.header-burger::after {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .header-burger::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    bottom: 15px;
   }
 }
 

@@ -40,9 +40,11 @@
     &__policy{
         margin: 0px 5% 0px 10%;
         color: #FFFFFF;
+        cursor: pointer;
     }
     &__agreement{
-        color: #FFFFFF; 
+        color: #FFFFFF;
+        cursor: pointer; 
     }
 }
 }

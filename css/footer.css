@@ -38,7 +38,9 @@
 .footer__container-right__policy {
   margin: 0px 5% 0px 10%;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .footer__container-right__agreement {
   color: #FFFFFF;
+  cursor: pointer;
 }/*# sourceMappingURL=footer.css.map */
