@@ -153,13 +153,13 @@
 }
 .menu-item:hover {
   display: flex;
-  background: #EF7F04;
+  color: #EF7F04;
   border-radius: 3px;
   align-items: center;
   justify-content: center;
 }
 .menu-item:hover a {
-  color: #fff;
+  color: #EF7F04;
 }
 
 .main-info_right-big {

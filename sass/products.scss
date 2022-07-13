@@ -179,18 +179,26 @@
     // overflow: auto;
     margin: 40px;
 }
+.header-menu-item {
 
+
+// &:hover {
+    
+//     // border-top: 4px solid #EF7F04;
+// }
+}
 .menu-item {
     padding-right: 10px;
     font-size: 18px;
     
     &:hover {
         display: flex;
-        background: #EF7F04;
+        color: #EF7F04;
         border-radius: 3px;
         align-items: center;
         justify-content: center;
-    a{color: #fff;}    
+        
+    a{color: #EF7F04;}    
 
     }
 }

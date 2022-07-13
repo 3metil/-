@@ -133,6 +133,7 @@
   width: -moz-max-content;
   width: max-content;
   margin-right: 27px;
+  height: 18px;
 }
 .navigation-items a {
   text-decoration: none;
@@ -143,6 +144,7 @@
 .navigation-items__item {
   display: flex;
   height: 18px;
+  text-align: center;
 }
 @media screen and (max-width: 992px) {
   .navigation-items {
